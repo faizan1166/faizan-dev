@@ -1,0 +1,18 @@
+:root {
+  --bg-dark-main: #181818;
+  --bg-dark: #25273e; /* main background */
+  --bg-dark-2: #1e293b; /* cards */
+  --bg-dark-3: #334155; /* borders */
+  --text-light: #f8fafc;
+  --text-muted: #94a3b8;
+
+  --gradient-purple: linear-gradient(
+    to right,
+    #ff5f6d 0%,
+    #ffc371 51%,
+    #ff5f6d 100%
+  );
+  --gradient-purple-hover: linear-gradient(135deg, #c084fc, #fb7185);
+  --gradient-purple-border: #ff5f6d;
+  --gradient-purple-shadow: #fb71869d;
+}

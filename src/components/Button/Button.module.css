@@ -1,0 +1,16 @@
+.btnGrad {
+  background-image: var(--gradient-purple);
+}
+.btnGrad {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 8px;
+}
+
+.btnGrad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 5px var(--gradient-purple-shadow);
+}
