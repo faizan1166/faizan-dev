@@ -1,0 +1,31 @@
+.hero-section .text-rotate-sr-only {
+    background: var(--gradient-purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-page-right-section {
+    position: relative;
+    margin: 0 auto;
+}
+
+.hero-page-right-section .floating-icons {
+    position: absolute;
+}
+
+.hero-page-right-section svg {
+    max-height: 100px;
+}
+
+.react-icon {
+    position: absolute;
+    top: 40%;
+    left: -200px;
+}
+
+.hero-page-right-section .hero-boy {
+    position: relative;
+    z-index: 10;
+    /* boy always in front */
+
+}

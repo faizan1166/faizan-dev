@@ -93,6 +93,7 @@
   backdrop-filter: var(--glass-blur);
   /* border: 1px solid var(--glass-border); */
   z-index: 1000;
+  height: 60px;
 }
 
 .navLink {

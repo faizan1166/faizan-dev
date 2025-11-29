@@ -1,0 +1,117 @@
+.orbit-wrapper {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.floating-icon {
+  position: absolute;
+  animation: floatUpDown infinite ease-in-out;
+}
+
+/* Random animation delays & durations */
+.floating-icon:nth-child(1) {
+  animation-duration: 3s;
+  animation-delay: 0s;
+  left: 0%;
+  top: 60%;
+}
+
+.floating-icon:nth-child(2) {
+  animation-duration: 2.7s;
+  animation-delay: .3s;
+  left: 5%;
+  top: 20%;
+}
+
+.floating-icon:nth-child(3) {
+  animation-duration: 3.4s;
+  animation-delay: .6s;
+  left: 10%;
+  top: 45%;
+}
+
+.floating-icon:nth-child(4) {
+  animation-duration: 2.9s;
+  animation-delay: .9s;
+  left: 20%;
+  top: 0%;
+}
+
+.floating-icon:nth-child(5) {
+  animation-duration: 3.2s;
+  animation-delay: .2s;
+  left: 45%;
+  top: -10%;
+}
+
+.floating-icon:nth-child(6) {
+  animation-duration: 3.5s;
+  animation-delay: .8s;
+  right: 5%;
+  top: 20%;
+}
+
+.floating-icon:nth-child(7) {
+  animation-duration: 2.8s;
+  animation-delay: .5s;
+  right: 20%;
+  top: -7%;
+}
+
+.floating-icon:nth-child(8) {
+  animation-duration: 3.1s;
+  animation-delay: .1s;
+  right: 10%;
+  top: 50%;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(-15px);
+    opacity: 0.9;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+
+@media screen and (max-width:600px) {
+
+  /* .floating-icon:nth-child(1) { animation-duration: 3s; animation-delay: 0s; left: 70px; top: 60%; }
+.floating-icon:nth-child(2) { animation-duration: 2.7s; animation-delay: .3s; left: 100px; top: 30%; }
+.floating-icon:nth-child(3) { animation-duration: 3.4s; animation-delay: .6s; left: 100px; top: 45%; }
+.floating-icon:nth-child(4) { animation-duration: 2.9s; animation-delay: .9s; left: 80px; top: 0%; }
+.floating-icon:nth-child(5) { animation-duration: 3.2s; animation-delay: .2s; left: 45%; top: -10%; }
+.floating-icon:nth-child(6) { animation-duration: 3.5s; animation-delay: .8s; right: 5%; top: 20%; }
+.floating-icon:nth-child(7) { animation-duration: 2.8s; animation-delay: .5s; right: 20%; top: -7%; }
+.floating-icon:nth-child(8) { animation-duration: 3.1s; animation-delay: .1s; right: 10%; top: 50%; }
+   */
+  .orbit-wrapper {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+}

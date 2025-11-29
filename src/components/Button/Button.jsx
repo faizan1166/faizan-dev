@@ -1,9 +1,10 @@
 import React from "react";
-import styles from "./Button.module.css"
-function Button({ title, handleClick }) {
+import styles from "./Button.module.css";
+function Button({ title, handleClick, fontSize = "text-md", className }) {
+  console.log(fontSize, "fontSize");
   return (
     <button
-      class={`${styles.btnGrad} text-sm text-white py-1.5 px-4 cursor-pointer rounded`}
+      className={`${styles.btnGrad} ${fontSize} text-white py-1.5 px-4 cursor-pointer rounded ${className}`}
       onClick={handleClick}
     >
       {title}

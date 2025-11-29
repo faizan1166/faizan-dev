@@ -15,11 +15,11 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.navbar} shadow-md w-full fixed top-0 left-0`}>
-      <div className="max-w-[1780px] mx-auto px-[16px]">
-        <div className="flex items-center justify-between h-16">
+      <div className="max-w-[1280px] mx-auto px-[16px]  h-full">
+        <div className="flex items-center justify-between  h-full">
           <div className="text-2xl font-bold text-white">MyBrand</div>
 
-          <div className="hidden lg:flex space-x-8">
+          <div className="hidden lg:flex space-x-8 items-center">
             {navLinks.map((item) => (
               <a
                 key={item.title}
