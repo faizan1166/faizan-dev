@@ -1,10 +1,9 @@
+import React from "react";
 import Button from "../../components/Button/Button";
 import RotatingText from "../../components/RotatingText/RotatingText";
-import React from "react";
-import heroMe from ".././../assets/images/Home/hero-me-no-icons.png";
-import "./Home.css";
-import { ReactJsIcon } from "../../components/Icons/SvgIcons";
+import heroMe from ".././../assets/images/Home/me.webp";
 import FloatingIcons from "../../components/FloatingIcons/FloatingIocns";
+import "./Home.css";
 
 function Home() {
   return (
@@ -43,17 +42,26 @@ function Home() {
             rotationInterval={4000}
           />
         </h1>
-        <div className="max-w-[200px]">
+        <div className="max-w-[410px] flex flex-row gap-[8px]">
           <Button
             title={"Hire Me"}
-            fontSize="text-[12px] md:text-[15px]"
+            fontSize="text-[15px]"
+            className="font-normal"
+          />
+          <Button
+            variant="secondary"
+            title={"Download CV"}
+            fontSize="text-[15px]"
             className="font-normal"
           />
         </div>
       </div>
       <div className="hero-page-right-section">
         <FloatingIcons />
-        <img src={heroMe} className="lg:max-h-[400px] max-h-[200px] mt-20 hero-boy" />
+        <img
+          src={heroMe}
+          className="lg:max-h-[400px] max-h-[200px] md:mt-16 hero-boy"
+        />
       </div>
     </div>
   );

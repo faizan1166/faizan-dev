@@ -9,15 +9,19 @@
   --text-light: #f8fafc;
   --text-muted: #94a3b8;
 
-  --gradient-purple: linear-gradient(to right,
+  /* --gradient-purple: linear-gradient(to right,
       #ff5f6d 0%,
       #ffc371 51%,
-      #ff5f6d 100%);
-  --gradient-purple-hover: linear-gradient(135deg, #c084fc, #fb7185);
-  --gradient-purple-border: #ff5f6d;
-  --gradient-purple-shadow: #fb71869d;
+      #ff5f6d 100%); */
+     --gradient-purple: linear-gradient(90deg, #3B82F6, #06B6D4);
 
-  --gradient-blue: linear-gradient(90deg, #3B82F6, #06B6D4);
+  /* --gradient-purple-hover: linear-gradient(135deg, #c084fc, #fb7185);
+  --gradient-purple-border: #ff5f6d;
+  --gradient-purple-shadow: #fb71869d; */
+   --gradient-purple-hover: linear-gradient(135deg, #c084fc, #fb7185);
+  --gradient-purple-border: #3B82F6;
+  --gradient-purple-shadow: #3b83f69c;
+
 
 }
 

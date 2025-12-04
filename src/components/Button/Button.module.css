@@ -1,4 +1,4 @@
-.btnGrad {
+.btnGradPrimary {
   background-image: var(--gradient-purple);
 }
 .btnGrad {
@@ -8,9 +8,14 @@
   border-radius: 8px;
 }
 
-.btnGrad:hover {
+.btnGradPrimary:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
   box-shadow: 0 2px 5px var(--gradient-purple-shadow);
+}
+
+.btnBlack {
+  background-color: var(--bg-dark-main);
+  border: 1px solid #334155;
 }
