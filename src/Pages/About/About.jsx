@@ -27,15 +27,15 @@ const About = () => {
 
   return (
     <section
-      className="py-6 md:py-10  px-4 sm:px-6 lg:px-8 transition-colors duration-300"
+      className="pt-6 md:pt-10 transition-colors duration-300"
       id="about"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <h2 className="text-base text-indigo-600 dark:text-indigo-400 font-semibold tracking-wide uppercase">
             Who I Am
           </h2>
-          <p className="mt-2 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl">
+          <p className="mt-1 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl">
             About Me
           </p>
         </div>
