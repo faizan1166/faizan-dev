@@ -74,7 +74,7 @@
 
 @media (max-width: 480px) {
   .bottomNav {
-    height: 60px;
+    height: 65px;
   }
 
   .iconWrapper {
@@ -93,7 +93,7 @@
   backdrop-filter: var(--glass-blur);
   /* border: 1px solid var(--glass-border); */
   z-index: 1000;
-  height: 60px;
+  height: 65px;
 }
 
 .navLink {

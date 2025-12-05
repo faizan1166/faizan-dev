@@ -2,7 +2,28 @@ import React from "react";
 import aboutMe from "../../assets/images/About/about-me.webp";
 
 const About = () => {
-  const skills = ["React.js", "Next.js", "Node.js", "MongoDB", "React Native"];
+  const skills = [
+    {
+      title: "React.js",
+      color: "text-cyan-400 bg-cyan-500/10 border border-cyan-500/20",
+    },
+    {
+      title: "Next.js",
+      color: "text-white bg-gray-800/60 border border-gray-600/40",
+    },
+    {
+      title: "Node.js",
+      color: "text-lime-400 bg-lime-500/10 border border-lime-500/20",
+    },
+    {
+      title: "MongoDB",
+      color: "text-emerald-400 bg-emerald-500/10 border border-emerald-500/20",
+    },
+    {
+      title: "React Native",
+      color: "text-indigo-400 bg-indigo-500/10 border border-indigo-500/20",
+    },
+  ];
 
   return (
     <section
@@ -18,12 +39,8 @@ const About = () => {
             About Me
           </p>
         </div>
-
-        {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          {/* Left Column: Image */}
           <div className="relative group md:order-2">
-            {/* Glow effect - Adjusted for dark mode brightness */}
             <div className="absolute -inset-4 rounded-xl transition duration-500"></div>
             <img
               src={aboutMe}
@@ -68,16 +85,22 @@ const About = () => {
             </p>
 
             <div className="pt-4">
-              <h4 className="text-sm font-semibold  uppercase tracking-wider mb-3">
+              <h4 className="text-md font-semibold  uppercase tracking-wider mb-3">
                 Tech Stack
               </h4>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill, index) => (
                   <span
-                    key={index}
-                    className="px-4 py-2 bg-dark dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-sm font-medium shadow-sm hover:border-indigo-300 dark:hover:border-indigo-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-default"
+                    className={`inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs lg:text-sm font-medium ${skill.color}`}
                   >
-                    {skill}
+                    <svg
+                      viewBox="0 0 6 6"
+                      aria-hidden="true"
+                      className="size-1.5 fill-current"
+                    >
+                      <circle r={3} cx={3} cy={3} />
+                    </svg>
+                    {skill.title}
                   </span>
                 ))}
               </div>
