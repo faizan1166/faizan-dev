@@ -60,7 +60,7 @@ function Home() {
         <FloatingIcons />
         <img
           src={heroMe}
-          className="lg:max-h-[400px] max-h-[200px] md:mt-16 hero-boy"
+          className="lg:max-h-[500px] max-h-[350px] md:mt-16 hero-boy"
         />
       </div>
     </div>

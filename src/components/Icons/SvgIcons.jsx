@@ -1,10 +1,6 @@
 export const ReactJsIcon = () => {
   return (
-    <svg
-      viewBox="0 0 32 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -114,12 +110,32 @@ export const GithubIcon = () => {
 };
 export const NextJsIcon = () => {
   return (
-    <svg fill="#000000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <svg
+      fill="#000000"
+      viewBox="-3.2 -3.2 38.40 38.40"
+      xmlns="http://www.w3.org/2000/svg"
+      stroke="#000000"
+      transform="rotate(0)"
+    >
+      <g
+        id="SVGRepo_bgCarrier"
+        stroke-width="0"
+        transform="translate(2.24,2.24), scale(0.86)"
+      >
+        <rect
+          x="-3.2"
+          y="-3.2"
+          width="38.40"
+          height="38.40"
+          rx="19.2"
+          fill="#ffffff"
+          strokewidth="0"
+        ></rect>
+      </g>
       <g
         id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       ></g>
       <g id="SVGRepo_iconCarrier">
         {" "}
