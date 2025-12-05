@@ -50,7 +50,7 @@ const About = () => {
             </p>
 
             <p className="text-md leading-relaxed">
-              I enjoy taking ideas and turning them into something real —
+              I enjoy taking ideas and turning them into something real
               something people can actually use and interact with. Over the past
               few years, I’ve worked on web platforms and mobile apps, learning
               that code should be efficient and easy to maintain. I keep things
@@ -61,7 +61,7 @@ const About = () => {
             <p className="text-md leading-relaxed">
               Outside of work, I like exploring new frontend ideas, improving UI
               animations, and learning more about backend systems. My goal is
-              straightforward —{" "}
+              straightforward{" "}
               <span className="italic font-medium ">
                 grow steadily, build meaningful things, and keep improving.
               </span>
