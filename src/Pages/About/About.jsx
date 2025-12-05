@@ -33,14 +33,14 @@ const About = () => {
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold ">
+            <h3 className="text-xl md:text-3xl font-bold ">
               I'm a{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400">
                 Software Developer
               </span>
             </h3>
 
-            <p className="text-lg leading-relaxed">
+            <p className="text-md leading-relaxed">
               Currently working at{" "}
               <span className="font-semibold ">
                 Websultanate Technologies Pvt. Ltd.
@@ -49,7 +49,7 @@ const About = () => {
               user-friendly applications.
             </p>
 
-            <p className=" leading-relaxed">
+            <p className="text-md leading-relaxed">
               I enjoy taking ideas and turning them into something real —
               something people can actually use and interact with. Over the past
               few years, I’ve worked on web platforms and mobile apps, learning
@@ -58,7 +58,7 @@ const About = () => {
               feels smooth.
             </p>
 
-            <p className=" leading-relaxed">
+            <p className="text-md leading-relaxed">
               Outside of work, I like exploring new frontend ideas, improving UI
               animations, and learning more about backend systems. My goal is
               straightforward —{" "}

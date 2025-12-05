@@ -13,9 +13,14 @@ function Home() {
         <h1>
           I'M <span className="gradient-text">Mohd Faizan Ansari</span>
         </h1>
-        <span className="text-lg md:text-xl text-gray-300 leading-relaxed font-normal">
-          Software Developer crafting scalable, efficient, and user-focused
-          applications.
+        <span className="text-[16px] md:text-lg text-gray-300 leading-relaxed font-normal">
+          {/* Software Developer crafting scalable, efficient, and user-focused
+          applications. */}
+          From designing fluid user interfaces to integrating robust APIs, I
+          bring together clean code, thoughtful UX, and modern JavaScript
+          frameworks to build scalable digital experiences. I create solutions
+          that don’t just look good they work reliably, perform efficiently, and
+          scale with your product.
         </span>
         <h1>
           <RotatingText
@@ -31,7 +36,7 @@ function Home() {
               "Believes in Continuous Improvement",
               "Always Curious and Learning",
             ]}
-            mainClassName="text-[var(--gradient-purple-border)] text-[20px] md:text-[40px] font-bold w-fit overflow-hidden justify-center"
+            mainClassName="text-[var(--gradient-purple-border)] text-[30px] md:text-[40px] font-bold w-fit overflow-hidden justify-center"
             staggerFrom={"last"}
             initial={{ y: "100%" }}
             animate={{ y: 0 }}

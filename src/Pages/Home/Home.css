@@ -26,6 +26,4 @@
 .hero-page-right-section .hero-boy {
     position: relative;
     z-index: 10;
-    /* boy always in front */
-
 }
